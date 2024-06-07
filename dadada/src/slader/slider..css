@@ -1,0 +1,60 @@
+.slider {
+    width: 100%;
+    margin: 0 auto;
+    z-index: 98;
+  }
+  .elemCoffe {
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    margin: 10px 0 30px;
+    display: flex;
+    flex-direction: column;
+  }
+  .imgScrollElem {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 700px;
+    background-size: contain;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+  .textContainer {
+    flex-direction: column;
+    position: absolute;
+    top: 46%;
+    left: 36%;
+    transform: translate(-50%, -50%);
+    color: white;
+    padding: 0 10px;
+  }
+  .scrollName {
+    margin-bottom: 10px;
+    font-size: 90px;
+  }
+  .titleScrlolElemMenu {
+    margin-bottom: 10px;
+    font-size: 34px;
+    font-weight: 600;
+  }
+  .title2ScrolElemMenu {
+    margin-bottom: 45px;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .btnShop {
+    flex-direction: column;
+    padding: 18px 46px;
+    text-align: center;
+    background-color: #252525;
+    color: #fff;
+    border-radius: 9px;
+    transition: all 0.4s;
+    font-size: 17px;
+  }
+  .btnShop:hover {
+    background-color: white;
+    color: #252525;
+  }
