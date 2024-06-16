@@ -1,3 +1,16 @@
-.Title_trending{
-    padding-top: 70px;
+ .title_trending {
+    padding-top: 140px;
+} 
+
+.trending_1 {
+    font-size: 78px;
+    color: #e62929;
+    padding-top: 20px;
+    margin: 0;
+}
+
+.title_2 {
+    color: #111;
+    font-size: 40px;
+    margin: 0;
 }

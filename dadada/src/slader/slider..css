@@ -36,8 +36,9 @@
   }
   .titleScrlolElemMenu {
     margin-bottom: 10px;
-    font-size: 34px;
+    font-size: 52px;
     font-weight: 600;
+    color: #ffab0a;
   }
   .title2ScrolElemMenu {
     margin-bottom: 45px;
@@ -48,9 +49,9 @@
     flex-direction: column;
     padding: 18px 46px;
     text-align: center;
-    background-color: #252525;
-    color: #fff;
-    border-radius: 9px;
+    background-color: #ffab0a;
+    color: #111;
+    border-radius: 90px;
     transition: all 0.4s;
     font-size: 17px;
   }

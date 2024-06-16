@@ -5,6 +5,7 @@ import { IoIosSearch } from "react-icons/io";
 
 export default function Header() {
   return (
+    <div className="fixed_white">
     <div className="container_header _content">
       
       <div className="logo_dist">
@@ -31,6 +32,7 @@ export default function Header() {
         <IoIosSearch />
         <MdShoppingCart/>
         </a>
+        </div>
         </div>
       
         
