@@ -1,11 +1,10 @@
 .lala {
-    margin: 70px 0px 70px 0px;
-
+  margin: 70px 0px 70px 0px;
 }
 
 .container_history {
-  
-
+    padding-top: 50px;
+  padding-bottom: 50px;
   background-color: #233352;
   display: flex;
   align-items: center;
@@ -47,7 +46,6 @@
 .kisti {
   position: relative;
   top: -40px;
- display: flex;
- justify-content: center;
-  
+  display: flex;
+  justify-content: center;
 }
