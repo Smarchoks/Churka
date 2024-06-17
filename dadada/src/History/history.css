@@ -1,0 +1,53 @@
+.lala {
+    margin: 70px 0px 70px 0px;
+
+}
+
+.container_history {
+  
+
+  background-color: #233352;
+  display: flex;
+  align-items: center;
+  gap: 120px;
+}
+
+.block_history {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 56px 0px 56px 390px;
+  width: 400px;
+}
+
+.title_history_1 {
+  font-size: 78px;
+  color: #ffbd0a;
+}
+
+.title_history_2 {
+  font-size: 40px;
+  color: #fff;
+}
+
+.text_history {
+  padding-top: 20px;
+  color: #ccc;
+}
+
+.block_title {
+  padding: 0;
+}
+
+.photo_gus {
+  padding: 20px 0px;
+}
+
+.kisti {
+  position: relative;
+  top: -40px;
+ display: flex;
+ justify-content: center;
+  
+}
