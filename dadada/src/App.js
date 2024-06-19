@@ -5,11 +5,13 @@ import Trending from "./Trending_food/trending";
 import Basement from "./Basement/basement";
 import History from "./History/history";
 
+
 import "./App.css";
 
 function App() {
   return (
     <div className="App _content">
+      
       <Header />
       <ScrollElem/>
       <Trending/>

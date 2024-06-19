@@ -2,8 +2,14 @@ import "./Header.css";
 import logo from "../Img/pogo11.png";
 import { MdShoppingCart } from "react-icons/md";
 import { IoIosSearch } from "react-icons/io";
+import { useState } from "react";
 
 export default function Header() {
+  const [cart, setCart] = useState([]);
+
+  const handleAddToCart = (product) => {
+    setCart([...cart, product]);
+  };
   return (
     <div className="fixed_white">
     <div className="container_header _content">
@@ -31,6 +37,7 @@ export default function Header() {
         <a  className="href_icon"href="url">
         <IoIosSearch />
         <MdShoppingCart/>
+        <span className="cart-count">{cart.length}</span>
         </a>
         </div>
         </div>

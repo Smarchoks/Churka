@@ -1,18 +1,26 @@
-.container_best{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 40px;
-    max-width: 1400px;
-    margin: 0 auto;
-    
+.container_best {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
-.block_card{
-    
+.block_card {
 }
 
-.chicken{
-    width: 300px;
-    height: 320px;
+.chicken {
+  width: 300px;
+  height: 320px;
 }
+
+.block_card {
+  transition: transform 0.3s ease-in-out;
+}
+
+.block_card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
