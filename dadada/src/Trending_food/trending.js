@@ -1,5 +1,5 @@
 import "./trending.css";
-import Ture from "../Img/popo.png"
+// import Ture from "../Img/popo.png"
 
 export default function Trending() {
   return <div className="container_trending">
@@ -11,7 +11,7 @@ export default function Trending() {
             Популярных блюд
         </p>
         <div className="loo">
-        <img src={Ture} width={220} />
+        
       </div>
     </div>
   </div>;
